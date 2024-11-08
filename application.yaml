@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/skoved/learn-kustomize.git
     targetRevision: HEAD
+    path: .
   destination:
     server: https://kubernetes.default.svc
     namespace: mywebapp
