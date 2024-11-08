@@ -2,7 +2,6 @@
 bases:
   - ../../base
 
-namespace: dev
 patches:
   - target:
       group: apps
