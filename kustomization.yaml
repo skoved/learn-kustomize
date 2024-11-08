@@ -1,0 +1,16 @@
+---
+resources: # yaml files to kustomize
+  - deployment.yaml
+  - service.yaml
+
+labels: # apply labels
+  - pairs:
+      app: mywebapp
+    includeSelectors: true
+
+commonAnnotations:
+  app: mykustom-annotations
+
+namePrefix: kustom-
+nameSuffix: -v1
+  
