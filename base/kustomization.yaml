@@ -13,7 +13,3 @@ commonAnnotations:
 
 namePrefix: kustom-
 nameSuffix: -v1
- 
-configMapGenerator:
-  - name: mykustom-map
-    env: config.properties
